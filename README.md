@@ -63,3 +63,6 @@ touch src/get_data.py
 ```bash
 touch src/load_data.py
 ```
+``` bash
+dvc repro
+```
