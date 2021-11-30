@@ -16,16 +16,42 @@ touch README.md
 ```bash
 python template.py
 ```
+```bash
 mkdir data_given
+```
+```bash
 git init
+```
+```bash
 dvc init
+```
+```bash
 dvc add data_given/winequality.csv
+```
+```bash
 git add .
+```
+```bash
 git config --global user.email 'parvyadav2011@gmail.com'
+```
+```bash
 git config --global user.name "Parv Yadav"
+```
+```bash
 git commit -m "first commit"
+```
+```bash
 git branch -M main
+```
+```bash
 git remote add origin https://github.com/ParvYadav/Mlops.git
+```
+```bash
 git push -u origin main
+```
+```bash
 git add . && git commit -m 'update Readme.md'
-hsitory
+```
+```bash
+history
+```
