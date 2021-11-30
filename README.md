@@ -44,7 +44,7 @@ git commit -m "first commit"
 git branch -M main
 ```
 ```bash
-git remote add origin https://github.com/ParvYadav/Mlops.git
+git remote set-url origin git@github.com:ParvYadav/Mlops.git
 ```
 ```bash
 git push -u origin main
