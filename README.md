@@ -57,3 +57,9 @@ git add . && git commit -m 'update Readme.md'
 ```bash
 history
 ```
+```bash
+touch src/get_data.py
+```
+```bash
+touch src/load_data.py
+```
