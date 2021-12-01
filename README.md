@@ -44,6 +44,7 @@ git commit -m "first commit"
 git branch -M main
 ```
 ```bash
+git add set-url origin https://github.com/ParvYadav/Mlops.git
 git remote set-url origin https://github.com/ParvYadav/Mlops.git
 git config credential.helper store
 git push https://github.com/ParvYadav/Mlops.git
@@ -66,3 +67,7 @@ touch src/load_data.py
 ``` bash
 dvc repro
 ```
+
+dvc metrics show
+
+dvc metrics diff
