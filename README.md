@@ -67,7 +67,16 @@ touch src/load_data.py
 ``` bash
 dvc repro
 ```
-
+To see the metrics of the model
 dvc metrics show
 
+to compare metrics old and the new one
+
 dvc metrics diff
+
+after creating setup.py
+
+pip install -e .
+
+to create our own pip wheel
+python setup.py sdist bdist_wheel
