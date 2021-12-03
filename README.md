@@ -80,3 +80,7 @@ pip install -e .
 
 to create our own pip wheel
 python setup.py sdist bdist_wheel
+
+cp saved_models/model.joblib prediction_service/model
+
+python app.py
