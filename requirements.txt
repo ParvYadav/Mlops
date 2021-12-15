@@ -1,0 +1,10 @@
+dvc
+dvc[gdrive]
+sklearn
+pandas
+pytest
+tox
+jupyterlab
+flask
+gunicorn
+flake8
