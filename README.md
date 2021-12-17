@@ -84,3 +84,15 @@ python setup.py sdist bdist_wheel
 cp saved_models/model.joblib prediction_service/model
 
 python app.py
+
+
+git checkout -b main-mlflow
+
+create an artifcats folder
+
+mlflow server command -
+
+mlflow server \
+    --backend-store-uri sqlite:///mlflow.db \
+    --default-artifact-root ./artifacts \
+    --host 0.0.0.0 -p 1234
